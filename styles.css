@@ -1,0 +1,64 @@
+:root {
+    --clr-accent-900: hsl(218, 44%, 22%);
+    --clr-accent-600: hsl(220, 15%, 55%);
+    
+    --bg-color: hsl(212, 45%, 89%);
+
+    --card-color: hsl(0, 0%, 100%);
+
+    --fs-600: .9375rem;
+
+    --ff-primary: 'Outfit', sans-serif;
+    --ff-body: var(--ff-primary);    
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+
+
+/* Reseting default values */
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Time to style */
+
+
+body {
+    background: var(--bg-color);
+}
+
+.card {
+    background: var(--card-color);
+    max-width: 330px;
+    margin: 100px auto;
+    padding: .875rem .875rem 2.25rem;
+    text-align: center;
+    border-radius: .8rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: .65rem;
+}
+
+h2 {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-700);
+    font-size: 1.4rem;
+    color: var(--clr-accent-900);
+    padding: 1rem .92rem;
+}
+
+p {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-600);
+    color: var(--clr-accent-600);
+    padding: 0 1.85rem;
+}
