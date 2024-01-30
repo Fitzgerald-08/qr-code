@@ -30,13 +30,15 @@
 
 
 body {
+    display: grid;
+    place-content: center;
     background: var(--bg-color);
+    min-height: 100dvh;
 }
 
 .card {
     background: var(--card-color);
     max-width: 330px;
-    margin: 100px auto;
     padding: .875rem .875rem 2.25rem;
     text-align: center;
     border-radius: .8rem;
