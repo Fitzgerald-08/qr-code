@@ -5,10 +5,7 @@
     --clr-neutral-200: hsl(212, 45%, 89%);
     --clr-neutral: hsl(0, 0%, 100%);
 
-    --fs-600: .9375rem;
-
     --ff-primary: 'Outfit', sans-serif;
-    --ff-body: var(--ff-primary);    
 
     --fw-light: 400;
     --fw-bold: 700;
@@ -35,11 +32,11 @@ body {
 }
 
 .card {
-    background: var(--clr-neutral);
-    max-width: 330px;
-    padding: .875rem .875rem 2.25rem;
     text-align: center;
-    border-radius: 20px;
+    background: var(--clr-neutral);
+    max-width: 16rem;
+    border-radius: 15px;
+    padding: 0.8125rem 0.8125rem 2rem;
 }
 
 img {
@@ -48,17 +45,17 @@ img {
 }
 
 h2 {
-    font-family: var(--ff-body);
+    font-family: var(--ff-primary);
     font-weight: var(--fw-bold);
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     color: var(--clr-accent-900);
-    padding: 1rem .92rem;
+    margin-block: 1rem 0.75rem;
 }
 
 p {
-    font-family: var(--ff-body);
+    font-family: var(--ff-primary);
     font-weight: var(--fw-light);
-    font-size: var(--fs-600);
     color: var(--clr-accent-600);
-    padding: 0 1.85rem;
+    font-size: 13px;
+    letter-spacing: 2;
 }
